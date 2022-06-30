@@ -1,0 +1,2 @@
+* password_hash('variable a encriptar',PASSWORD_BCRYPT, ["cost"] => cantidad de veces que necesitemos encriptar): Esta función devuelve la contraseña encritada, encripta la cantidad de veces que le indiquemos en el cost.
+* password_verify('variable a encriptar', 'variable encriptada'): Esta función devuelve un booleano, verifica y compara las contraseñas que esten encritadas
